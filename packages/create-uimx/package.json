@@ -1,0 +1,42 @@
+{
+  "name": "create-uimx",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Norush",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "dist",
+    "index.js",
+    "template-*"
+  ],
+  "bin": {
+    "create-uimx": "index.js",
+    "uimx": "index.js"
+  },
+  "scripts": {
+    "dev": "unbuild --stub",
+    "start": "node dist/index.mjs",
+    "build": "unbuild",
+    "type:check": "tsc --noEmit",
+    "prepublishOnly": "npm run build",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run"
+  },
+  "devDependencies": {
+    "@types/cross-spawn": "^6.0.6",
+    "@types/minimist": "^1.2.5",
+    "@types/prompts": "^2.4.9",
+    "cross-spawn": "^7.0.6",
+    "minimist": "^1.2.8",
+    "picocolors": "^1.1.1",
+    "prompts": "^2.4.2",
+    "unbuild": "^3.0.0-rc.11"
+  },
+  "keywords": [
+    "cli",
+    "template",
+    "create-uimx"
+  ]
+}
