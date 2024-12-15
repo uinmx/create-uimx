@@ -1,0 +1,12 @@
+# Ignore artifacts:
+build
+dist/
+coverage
+node_modules
+
+# generate
+packages/*/CHANGELOG.md
+LICENSE.md
+pnpm-lock.yaml
+pnpm-workspace.yaml
+
