@@ -10,5 +10,8 @@ export default [
   ...tseslint.configs.recommended,
   {
     ignores: ["node_modules"],
+    rules: {
+      "@typescript-eslint/no-explicit-any": "off",
+    },
   },
 ]
