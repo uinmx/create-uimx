@@ -38,5 +38,14 @@
     "cli",
     "template",
     "create-uimx"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/uinmx/create-uimx/issues"
+  },
+  "homepage": "https://github.com/uinmx/create-uimx#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uinmx/create-uimx.git",
+    "directory": "packages/create-rose"
+  }
 }
