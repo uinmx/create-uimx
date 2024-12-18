@@ -1,6 +1,6 @@
 import pic from "picocolors"
 
-const { blue, greenBright, reset, yellow } = pic
+const { blue, greenBright, reset, yellow, magenta } = pic
 
 export const prefixName = "uimx"
 
@@ -48,6 +48,19 @@ export const FRAMEWORKS: Framework[] = [
         display: "create-vite ↗",
         color: reset,
         customCommand: "npm create vite@latest TARGET_DIR",
+      },
+    ],
+  },
+  {
+    name: "turborepo",
+    display: "Turborepo",
+    color: magenta,
+    variants: [
+      {
+        name: "create-turbo",
+        display: "create-turbo ↗",
+        color: reset,
+        customCommand: "npx create-turbo@latest TARGET_DIR",
       },
     ],
   },
